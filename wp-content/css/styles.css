@@ -1,0 +1,28 @@
+.intro span, .intro p{
+    display: block;
+    
+    padding-top: 25px;
+}
+.intro{
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 1200px;
+    padding-top: 20px;
+    height: 360px;
+}
+
+@media screen and (max-width: 780px) {
+    .image img{
+        width: auto;
+        padding-top: 20px;
+        height: auto;
+    }
+}

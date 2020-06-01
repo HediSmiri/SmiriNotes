@@ -1,0 +1,158 @@
+.box {
+    width:758px;
+    padding-left:10% ;
+    padding-top:2% ;
+    display: block;
+    margin:20px;
+    
+}
+
+.box span{
+    font-size : 40px ;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box p {
+    display:block;
+    line-height: 20px;
+}
+
+.img p ,.img a{
+    display: inline-block;
+    
+}
+.img img {
+    width: 57px;
+    height: 51px;
+    border-radius: 40px;
+}
+
+.img span{
+    position: relative;
+    font-size: 10px;
+    top: -31px;
+    left: 6px;
+}
+
+
+.fa {
+    padding: 6px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 16px;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 16px;
+
+}
+.social-media{
+    font-size: 11px;
+    position: relative;
+    top: -51px;
+    left  : 60px;
+    font-weight: bold;
+}
+    
+#date{
+    position: relative;
+    right: 83px;
+    left: -64px;
+    display: block;
+    top: -2px;
+}
+
+.immg img{
+    height: 500px;
+    width: 763px;
+    position: relative;
+    left: -13px;
+    top: -58px;
+}
+
+.allpage{
+    display: flex;
+}
+.recently{
+    float: right;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #333;
+    color: white;
+    width: 296px;
+    margin-top: 14%;
+    font-family: poppins,arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.subject li{
+    display: list-item;
+    list-style: square;
+}
+
+.subject p ,.subject li{
+    font-weight: bold;
+    box-sizing: inherit;
+    color: #3a343a;
+    font-family: Europa, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 125%;
+    line-height: 1.5;
+
+
+}
+
+.border1{
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border:1px solid rgba(238, 238, 238, 0.199);
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+.decimal li {
+    list-style: decimal;
+}
+
+.code {
+    font-family:  monospace, monospace;
+    font-size:13px;
+    color:tomato;
+}
+
+.recently_sub a{
+    color:#333;
+}
+
+.recently_sub a p{
+    font-size: 26px;
+    box-sizing: border-box;
+    position: relative;
+    top: 28px;
+    left: 49px;
+}
+
+.recently_sub a p:hover {
+    opacity: 0.8;
+}
